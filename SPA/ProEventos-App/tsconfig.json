@@ -19,12 +19,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@app/*" : ["src/app/*"],
+      "@enviroments/*" : ["src/enviroments/*"]
+    }
   },
-  "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false,
-    "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
-    "strictTemplates": true
+  "angularCompilerOptions":{
+    "strictTemplates":true,
+    "strictInjectionParametrers": true
   }
 }
